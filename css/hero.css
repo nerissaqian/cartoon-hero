@@ -43,20 +43,19 @@ h1{
   top: 0;
 }
 
-h1 span{
+span{
   font-style: italic;
 }
 
 header .rectangle{
   position: absolute;
   width: 823px;
-  height: 579px;
+  height: 225px;
   left: 0px;
   top: 546px;
 
-  /* Teal */
-
   background: #478799;
+
 }
 
 .running {
@@ -78,6 +77,24 @@ transform: rotate(-90deg);
 
 }
 
+.running_2{
+  position: absolute;
+
+padding-left:720px;
+
+padding-top: 15px;
+transform-origin: top left;
+
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: #478799;
+  transform: rotate(-90deg);
+}
+
 img.kirby_walk{
   position: absolute;
   width: 120px;
@@ -96,4 +113,126 @@ img.kirby_fall{
   top: 582px;
   z-index:2;
 
+}
+
+img.kirby_char{
+  position: absolute;
+  width: 773px;
+  height: 475px;
+  left: 50px;
+  top: 1089px;
+}
+
+main {
+  margin-top: 75px;
+}
+
+p {
+  /* position: absolute; */
+  width: 400px;
+  height: 67px;
+  margin-left: 851px;
+  top: 1376px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+
+  /* Teal */
+  padding-bottom: 50px;
+
+  color: #478799;
+
+}
+
+h3 {
+width: 82px;
+height: 95px;
+margin-left: 851px;
+padding-top:30px;
+top: 1469px;
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 95px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #CCBAD6;
+
+}
+
+hr {
+  width: 434px;
+  height: 0px;
+  margin-left: 843px;
+  border: 1px solid #CCBAD6;
+
+}
+
+h2{
+
+width: 544px;
+height: 54px;
+left: 244px;
+top: 932px;
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 85.1%;
+/* or 54px */
+
+letter-spacing: -0.05em;
+
+}
+
+h2.char{
+  position: absolute;
+  width: 544px;
+  height: 54px;
+  left: 244px;
+
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 85.1%;
+  /* or 54px */
+
+  letter-spacing: -0.05em;
+
+  color: #FFFFFF;
+}
+
+.rectangle_2{
+  position: absolute;
+  width: 823px;
+  height: 579px;
+  left: 0px;
+  top: 510px;
+
+  /* Teal */
+
+  background: #478799;
+  z-index: -1;
+}
+
+.rectangle_3{
+  position: absolute;
+  width: 773px;
+  height: 613px;
+  left: 50px;
+  top: 1500px;
+
+  background: #CCBAD6;
+
+  z-index: -1;
 }
